@@ -28,7 +28,11 @@
   <section>
     <h2>Cat form</h2>
     <form action="https://freecatphotoapp.com/submit-cat-photo">
-      <label>cat: <input type="radio"id="Indoor" > </label>
+      <fieldset>
+        <legend> Is your cat indoor or outdoor? </legend>
+        <label> <input id="indoor" type="radio" name="indoor-outdoor" value="indoor"> Indoor </label>
+      <label> <input id="outdoor" type="radio" name="indoor-outdoor" value="outdoor"> Outddor </label>
+      </fieldset>
       <input type="text" name="cat photo url" placeholder="cat photo URL" required>
       <button type="submit">Submit</button>
     </form>
