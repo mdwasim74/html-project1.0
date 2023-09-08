@@ -1,6 +1,21 @@
 body {
   font-family: sans-serif;
   background-image: url(https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg);
+  /* creating extra room by adding padding property */
+  padding: 20px;
+}
+/* add font sizes to h1&h2 ags */
+h1 {
+  font-size: 40px;
+  margin-top: 0px;
+  margin-bottom: 15px;
+}
+h2 {
+  font-size: 40px;
+}
+/* add italic font to EST. 2023 text */
+.established {
+  font-style: italic;
 }
 
 h1,
@@ -9,6 +24,12 @@ p {
   text-align: center;
 }
 
+/* Adding fonts(1 to many fonts are used if one is not availble then other fonts will be used to h1&h2 tags */
+
+h1,
+h2 {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
 .menu {
   max-width: 500px;
   padding: 20px;
@@ -17,8 +38,19 @@ p {
   margin-left: auto;
   margin-right: auto;
 }
-
+/* changind <hr> tag height */
+/* adding color */
+hr {
+  height: 2px;
+  background-color: white;
+  border-color: black;
+}
+/* adding margin(top/bottom) property */
+/* adding fon-size */
 .item p {
+  font-size: 18px;
+  margin-top: 5px;
+  margin-bottom: 5px;
   display: inline-block;
 }
 
@@ -28,6 +60,45 @@ p {
   width: 49%;
 }
 .price {
-  text-align: right;
+  text-align: end;
   width: 25%;
+}
+.bottom-line {
+  margin-top: 25px;
+}
+.bottom-line {
+  margin-bottom: 25px;
+}
+/* adding footer selector */
+footer {
+  font-size: 14px;
+}
+
+a {
+  color: black;
+}
+a:visited {
+  color: black;
+}
+
+/* You change properties of a link when the mouse hovers over it. */
+
+a:hover {
+  color: brown;
+}
+/* You change properties of a link when the link is actually being clicked */
+a:active {
+  color: brown;
+}
+
+.address {
+  margin-bottom: 5px;
+}
+
+/*  centering the image icon */
+img {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: -25px;
 }
