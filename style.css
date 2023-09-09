@@ -1,3 +1,4 @@
+/* Free code camp-project-Cafe menu */
 body {
   font-family: sans-serif;
   background-image: url(https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg);
@@ -7,7 +8,7 @@ body {
 /* add font sizes to h1&h2 ags */
 h1 {
   font-size: 40px;
-  margin-top: 0px;
+  margin-top: 15px;
   margin-bottom: 15px;
 }
 h2 {
@@ -28,7 +29,7 @@ p {
 
 h1,
 h2 {
-  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-family: Impact, sans-serif;
 }
 .menu {
   max-width: 500px;
@@ -60,8 +61,8 @@ hr {
   width: 49%;
 }
 .price {
-  text-align: end;
-  width: 25%;
+  text-align: right;
+  width: 49%;
 }
 .bottom-line {
   margin-top: 25px;
